@@ -26,3 +26,7 @@
    * Item 3a
    * Item 3b
    * Item 3c
+4. Step 4
+   * Item 4a
+   * Item 4b
+   * Item 4c
