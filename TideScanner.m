@@ -9,12 +9,12 @@ AssociatedScanner[TideScanner]
 
 disclaimer[args_] :=
   Column[{GrayComment["\:4f7f\:7528"<>If[("ExtendedStart" /. args)[[1]] < 1983, "20 \:5e74\:7684", ""] <>
-                      "\:5386\:53f2\:6570\:636e\:8ba1\:7b97, \:4e0d\:8003\:8651\:5929\:6c14\:60c5\:51b5\:7b49\:5176\:4ed6\:56e0\:7d20\n" <>
+                      "\:6b77\:53f2\:6578\:64da\:8a08\:7b97, \:4e0d\:8003\:616e\:5929\:6c23\:60c5\:6cc1\:7b49\:56e0\:7d20\n" <>
           (* " Not to be used for any navigational purpose.  " *)
             If[!("MoreDays" /. args) && ("More" /. args) == 0,
                "times in " <> (TZString@@ ({"Time", "CurrentTimeZones"} /. args)) <> " | ",
                ""
-            ] <> "\:6f6e\:4f4d\:9ad8\:5ea6\:76f8\:5bf9\:4e8e "<>z0ToText[TideData["Station" /. args, "Z0", "WithRespectTo"]],
+            ] <> "\:6f6e\:4f4d\:9ad8\:5ea6\:76f8\:5c0d\:65bc "<>z0ToText[TideData["Station" /. args, "Z0", "WithRespectTo"]],
             BaseStyle->"Caption"]
           }]
  
