@@ -1,10 +1,12 @@
+(* ::Package:: *)
+
 FO[
     Opt["instantaneous"], "rate", "of", "change",
     Opt["of"], 
     Opt["a"|"an"|"the"|"some"|"one"],
     Opt["problem"|"problems"|"function"|"functions"|
     "expression's"|"formula's"|"implicitly"]
-]
+]     
 
 
 FO[
@@ -13,7 +15,7 @@ FO[
     Opt["problem"|"problems"|"function"|"functions"]
     ...
 ]
-
+       
 FO[
     ..., 
     Opt[
